@@ -1,0 +1,2 @@
+SUBDIRS( ActiveContoursWithoutEdges )
+SUBDIRS( Options )

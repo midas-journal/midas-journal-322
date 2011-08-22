@@ -1,0 +1,6 @@
+INCLUDE_DIRECTORIES( ${CELLSEGMENTATION_SOURCE_DIR}/Options )
+
+ADD_EXECUTABLE( DemoOption demo.cxx )
+TARGET_LINK_LIBRARIES( DemoOption Option )
+
+ADD_TEST( DemoOptionTest ${CXX_TEST_PATH}/DemoOption )
